@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="logo-img"><img src="./icons/view-dashboard.png" style="width:40px;" alt="logo"></div>
+                <div class="logo-txt"> Dashboard</div>
+            </div>
+            <div class="sideUpper">
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/home.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="home"><a href="#">Home</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/account.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="profile"><a href="#">Profile</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/message.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="messages"><a href="#">Messages</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/history.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="history"><a href="#">History</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-log-img"><img src="./icons/file-document-multiple.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="tasks"><a href="#">Tasks</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img">
+                        <img src="./icons/account-group.png" style="width: 28px;" alt="">
+                    </div>
+                    <div class="sidecontent" id="communities"><a href="#">communities</a></div>
+                </div>
+            </div>
+            <div class="sidebottom">
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/cog.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="settings"><a href="#">Settings</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/face-agent.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="support"><a href="#">Support</a></div>
+                </div>
+                <div class="element-container">
+                    <div class="element-logo-img"><img src="./icons/shield-account.png" style="width: 28px;" alt=""></div>
+                    <div class="sidecontent" id="privacy"><a href="#">Privacy</a></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="main-content">
+            <div class="nav">
+                <div class="upper-nav">
+                    <div class="search">
+                        <div class="search-container">
+                            <button type="submit" form="search-input" class="search-submit">
+                                <img class="element-logo-img" src="./icons/magnify.png" style="width: 28px;" alt="">
+                            </button>
+
+                        </div>
+                        <form class="searchform" action="example.com/path" method="post" id="search-input">
+                        <input class ="searchquery" type="search" id="search-query" name="search-query">
+                    </div>
+                    <div class="profile">
+                        <img class="noti" src="./icons/bell-ring.png" style="width: 28px;" alt="noti">
+                        <img class="profile-img-small" src="./images/profile1.jpg" style="width: 50px; border-radius: 50%;" alt="profile">
+                        <div>HONEYBEE</div>
+                    </div>
+                </div>
+                <div class="profile-section">
+                    <div class="about">
+                        <div class="profile-img"><img src="./images/profile1.jpg" style="width: 60px;" alt=""></div>
+                        <div class="about-txt">
+                            <div class="greeting">Hi there,</div>
+                            <div class="greetingName">HoneyBee (@honeyxs1)</div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="share">New</button>
+                        <button class="share">Upload</button>
+                        <button class="share">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="articles">
+                <div class="project">
+                    <div class="project-header">Your Projects</div>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <h3 class="project-title">Super Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Less Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptate dolores ipsum ullam quisquam!</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Impossible App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tenetur reprehenderit nisi!</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Easy Peasy App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officia quibusdam. Corrupti quae quasi quo placeat nisi recusandae?</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Ad Blocker</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, velit. Voluptas, delectus sit? Reiciendis, molestiae!</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="project-title">Money Maker</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum, id dolorum et cum maiores magnam!</p>
+                            <div class="card-actions">
+                                <div id="save"><img src="./icons/star-plus-outline.png" style="width: 18px;" alt="save"></div>
+                                <div id="view"><img src="./icons/eye-plus-outline.png" style="width: 18px;" alt="view"></div>
+                                <div id="share"><img src="./icons/share-variant-outline.png" style="width: 18px;" alt="share"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="announcements">
+                        <div class="title">Announcements</div>
+                        <div class="notices">
+                            <div class="notice">
+                                <h3>Site Maintenance</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="notice">
+                                <h3>Community Share Day</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore ab necessitatibus rerum magni.</p>
+                            </div>
+                            <div class="last-notice">
+                                <h3>Updated Privacy Policy</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, architecto? Delectus cupiditate alias commodi laudantium?</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div class="trending">
+                        <div class="title">Trending</div>
+                        <div class="global-profiles">
+                            <div class="global-profile">
+                                <img src="./images/profile2.jpg" alt="profile">
+                                <div class="username">
+                                    <div>@tegan</div>
+                                    <div>World Peace Builder</div>
+                                </div>
+                            </div>
+                            <div class="global-profile">
+                                <img src="./images/profile3.jpg" alt="profile">
+                                <div class="username">
+                                    <div>@honeyBee</div>
+                                    <div>Super Cool Project</div>
+                                </div>
+                            </div>
+                            <div class="global-profile">
+                                <img src="./images/profile4.jpg" alt="profile">
+                                <div class="username">
+                                    <div>@kendall</div>
+                                    <div>Life Changing App</div>
+                                </div>
+                            </div>
+                            <div class="global-profile">
+                                <img src="./images/profile5.jpg" alt="profile">
+                                <div class="username">
+                                    <div>@alex</div>
+                                    <div>No Traffic Maker</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
